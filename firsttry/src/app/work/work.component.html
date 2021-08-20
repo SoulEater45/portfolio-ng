@@ -1,0 +1,20 @@
+<h3>Work</h3>
+<div *ngFor="let w of work">
+    <p>{{ w.position }}</p>
+    <a href="{{w.url}}">{{ w.name }}</a>
+    <div>
+        <p>{{ w.startDate | date:'MMMM YYYY' }}</p>
+        <p *ngIf="w.endDate; else presentDate">{{ w.endDate | date:'MMMM YYYY' }}</p>
+        <ng-template #presentDate> <p>present</p> </ng-template>
+    </div>
+    <p>{{ w.summary }}</p>
+    <div>
+        <ul *ngFor="let h of w.highlights">
+            <li>
+                <p>
+                    {{ h }}
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>

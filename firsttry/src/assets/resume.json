@@ -1,0 +1,338 @@
+{
+    "basics": {
+        "name": "Mirza Arnaut",
+        "label": "Research Assistant",
+        "picture": "https://arnaut.me/data/me.jpg",
+        "phone": "",
+        "email": "mirza.arnaut@tu-dortmund.de",
+        "website": "https://arnaut.me",
+        "summary": "a research assistant at the TU Dortmund University pursuing a phD degree in Electrical Engineering and Information Technology",
+        "location": {
+            "address": "",
+            "postalcode": "",
+            "city": "Dortmund",
+            "countryCode": "DE",
+            "region": "North Rhine-Westphalia"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "mirza-arnaut-78589b14b",
+                "url": "https://www.linkedin.com/in/mirza-arnaut-78589b14b/"
+            }, {
+                "network": "ResearchGate",
+                "username": "Mirza_Arnaut",
+                "url": "https://www.researchgate.net/profile/Mirza_Arnaut"
+            }, {
+                "network": "ORCID",
+                "username": "0000-0002-1631-7083",
+                "url": "https://orcid.org/0000-0002-1631-7083"
+            }, {
+                "network": "GitHub",
+                "username": "SoulEater45",
+                "url": "https://github.com/SoulEater45"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "TU Dortmund",
+            "company": "TU Dortmund",
+            "position": "Research Assistant",
+            "url": "http://bv.e-technik.tu-dortmund.de/",
+            "website": "http://bv.e-technik.tu-dortmund.de/",
+            "startDate": "2018-10-01",
+            "summary": "Lunar and planetary research, server maintenance and data management.",
+            "highlights": [
+                "Space Weathering",
+                "Light Scattering",
+                "Spectral Unmixing",
+                "Data Analysis"
+            ]
+        }, {
+            "name": "Lazarus Networks GmbH",
+            "company": "Lazarus Networks GmbH",
+            "position": "Software Developer",
+            "url": "https://lazarus-networks.de/",
+            "website": "https://lazarus-networks.de/",
+            "startDate": "2016-12-01",
+            "endDate": "2018-08-15",
+            "summary": "Server maintenance and active development on the Lazarus-App for information gathering and data transfer.",
+            "highlights": [
+                "Android development in Qt C++",
+                "iOS development in Swift (Xcode)",
+                "Linux server container development for a modern network"
+            ]
+        }, {
+            "name": "Intel GmbH",
+            "company": "Intel GmbH",
+            "position": "Intern",
+            "url": "https://www.intel.de/",
+            "website": "https://www.intel.de/",
+            "startDate": "2018-04-01",
+            "endDate": "2018-06-30",
+            "summary": "Internship in the PDS group and development in Perl",
+            "highlights": [
+                "Insight into an international company",
+                "Building frameworks with Perl",
+                "Database management"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Student Council of the Department of Electrical Engineering and Information Technology",
+            "position": "Council Member",
+            "url": "http://fset.de/",
+            "website": "http://fset.de/",
+            "startDate": "2017-10-01",
+            "endDate": "2021-09-30",
+            "summary": "The student council is an independent university organization consisting of honorary members that represent the students' opinion in various committees and tries to support them throughout their studies and student time with events and other activities",
+            "highlights": [
+                "Orientation Phase for new students",
+                "Big Bang Party",
+                "Feuerzangenbowle",
+                "Student BBQ",
+                "Study Groups",
+                "Mentoring",
+                "Gaming Meetings"
+            ]
+        }, {
+            "organization": "Study Advisory Board of the Department of Electrical Engineering and Information Technology",
+            "position": "Board Member",
+            "url": "https://www.e-technik.tu-dortmund.de/",
+            "website": "https://www.e-technik.tu-dortmund.de/",
+            "startDate": "2018-03-01",
+            "endDate": "2021-09-30",
+            "summary": "Overseeing the changes in the faculties lecturing offers and collaboration between students, research assistants and professors for their improvement",
+            "highlights": [
+                "Reaccreditation",
+                "Lecture Manual Changes",
+                "Student Remarks"
+            ]
+        }, {
+            "organization": "Quality Improvement Commission for Studies and Teaching of the Department of Electrical Engineering and Information Technology",
+            "position": "Board Member",
+            "url": "https://www.e-technik.tu-dortmund.de/",
+            "website": "https://www.e-technik.tu-dortmund.de/",
+            "startDate": "2018-03-01",
+            "endDate": "2021-09-30",
+            "summary": "Overseeing and approving funds for equipment and student workers which shall improve the overall quality  of the offered lectures",
+            "highlights": [
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "TU Dortmund",
+            "area": "Electrical Engineering and Information Technology",
+            "studyType": "phD",
+            "startDate": "2021-09-01",
+            "score": "",
+            "gpa": "",
+            "courses": [
+            ]
+        },
+        {
+            "institution": "TU Dortmund",
+            "area": "Electrical Engineering and Information Technology",
+            "studyType": "Master of Science",
+            "startDate": "2018-10-01",
+            "endDate": "2021-08-01",
+            "score": "1.2",
+            "gpa": "1.2",
+            "courses": [
+                "Modeling and simulation of signal processing systems",
+                "Model-based dimensioning of communication systems",
+                "Methods for modeling systems of nanotechnology, THz technology and photonics",
+                "Satellite communications",
+                "3D computer vision",
+                "Remote sensing",
+                "Scheduling",
+                "Online problems",
+                "Pattern recognition",
+                "Machine learning",
+                "Satellite navigation"
+            ]
+        },
+        {
+            "institution": "TU Dortmund",
+            "area": "Electrical Engineering and Information Technology",
+            "studyType": "Bachelor of Science",
+            "startDate": "2015-10-01",
+            "endDate": "2018-09-30",
+            "score": "2.0",
+            "gpa": "2.0",
+            "courses": [
+                "Mathematics I",
+                "Basics of electrical engineering",
+                "Introduction to programming",
+                "Mathematics II",
+                "Introduction to energy technology",
+                "Physics",
+                "Mathematics III",
+                "Technical computer Science",
+                "Semiconductors devicecs and Materials and passive components",
+                "Theoretical electrical engineering and basics of high frequency technology",
+                "Signals and systems",
+                "Datastructures, algorithms and programming",
+                "Communications Engineering",
+                "Control systems",
+                "Digital signal processing"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Deutschlandstipendium",
+            "date": "2018-10-01",
+            "startDate": "2018-10-01",
+            "endDate": "2021-07-31",
+            "awarder": "TU Dortmund - Wilo Fundation",
+            "summary": "Scholarship from the university for the top ranking students. Duration: 01.10.2018 - 31.08.2021"
+        }, {
+            "title": "Deutschlandstipendium",
+            "date": "2016-10-01",
+            "startDate": "2016-10-01",
+            "endDate": "2018-09-30",
+            "awarder": "TU Dortmund - LEUE & NILL GmbH",
+            "summary": "Scholarship from the university for the top ranking students. Duration: 01.10.2016 - 30.09.2018"
+        }, {
+            "title": "International Mathematical Olympiad: Honorable Mention",
+            "date": "2015-07-15",
+            "startDate": "2015-07-04",
+            "endDate": "2015-07-16",
+            "awarder": "IMO Committee",
+            "summary": "The International Mathematical Olympiad (IMO) is the World Championship Mathematics Competition for High School students and is held annually in a different country"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Mineralogical Maps of Mars from Hapke Modeling and Spectral Unmixing",
+            "publisher": "LPSC 2019",
+            "releaseDate": "2019-03-20",
+            "url": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/2661.pdf",
+            "website": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/2661.pdf",
+            "summary": "We constructed a Hapke-based framework to perform spectral unmixing in order to infer mineralogical maps of selected areas on Mars using CRISM data."
+        }, {
+            "name": "A Study of Hyperspectral Clustering — How to Speed Up Spectral Unmixing of Moon Mineralogy Mapper Data",
+            "publisher": "LPSC 2020",
+            "releaseDate": "2020-03-19",
+            "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3008.pdf",
+            "website": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3008.pdf",
+            "summary": "We use clustering algorithms as a means for speeding up the unmixing process on the lunar surface."
+        }, {
+            "name": "Geomorphologic Feature Extraction and Clustering of Martian DTM Data",
+            "publisher": "LPSC 2020",
+            "releaseDate": "2020-03-17",
+            "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3044.pdf",
+            "website": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3044.pdf",
+            "summary": "We present a new way of grouping elevation data based on geomorphologic properties for cartography."
+        }, {
+            "name": "The Interaction Between Multiple Nanophase Iron Particles Changes the Slope of Lunar Reflectance Spectra",
+            "publisher": "EPSC 2021",
+            "releaseDate": "2020-09-20",
+            "url": "https://meetingorganizer.copernicus.org/EPSC2021/EPSC2021-770.html",
+            "website": "https://meetingorganizer.copernicus.org/EPSC2021/EPSC2021-770.html",
+            "summary": "We analyzed the impact of particle interaction in lunar reflectance spectra."
+        }
+    ],
+    "projects":[
+        {
+            "name": "Pattern Recognition on the Martian Surface",
+            "description": "",
+            "highlights": [
+            ],
+            "keywords": [
+            ],
+            "startDate": "2019-10-01",
+            "endDate": "2020-04-01",
+            "url": "",
+            "roles": [
+            ],
+            "entity": "",
+            "type": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Systems",
+            "level": "Advanced",
+            "keywords": [
+                "Linux",
+                "Docker",
+                "Git"
+            ]
+        }, {
+            "name": "Programming",
+            "level": "Advanced",
+            "keywords": [
+                "Perl",
+                "Python",
+                "C++",
+                "Matlab"
+            ]
+        }, {
+            "name": "Mathematical Knowledge",
+            "level": "Master",
+            "keywords": [
+                "Modelling",
+                "Phsics Application",
+                "Algorithms",
+                "Competitive Mathematics"
+            ]
+        }, {
+            "name": "Web Development",
+            "level": "beginner",
+            "keywords": [
+                "Flutter Web",
+                "JavaScript",
+                "Angular",
+                "NodeJS",
+                "Python Flask"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        }, {
+            "language": "German",
+            "fluency": "Native speaker"
+        }, {
+            "language": "Bosnian",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Mathematics",
+            "keywords": [
+                "AOPS",
+                "StackExchange",
+                "Competitions",
+                "Teaching"
+            ]
+        }, {
+            "name": "Sports",
+            "keywords": [
+                "Martial Arts",
+                "Jogging",
+                "Workout"
+            ]
+        }, {
+            "name": "Cooking",
+            "keywords": [
+                "Asian Cousin (Japanese, Indian, Vietnamese, Chinese)",
+                "Bosnian Cousin",
+                "BBQ",
+                "Baking"
+            ]
+        }
+    ],
+    "references": [],
+    "meta": {
+        "theme": "kwan"
+      }
+}

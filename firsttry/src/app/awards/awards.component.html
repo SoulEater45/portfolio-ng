@@ -1,0 +1,7 @@
+<h3>Awards</h3>
+<div *ngFor="let award of awards">
+    <p>{{ award.title }}</p>
+    <p>{{ award.awarder }}</p>
+    <p>{{ award.summary }}</p>
+    <p>{{ award.date | date:'MMMM YYYY' }}</p>
+</div>

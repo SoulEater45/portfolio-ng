@@ -1,0 +1,15 @@
+<h3>Education</h3>
+<div *ngFor="let edu of education">
+    <div>
+        <p>{{ edu.studyType }}</p>
+        <p>{{ edu.area }}</p>
+    </div>
+    <div>
+        <p>{{ edu.institution }}</p>
+        <div>
+            <p>{{ edu.startDate | date:'MMMM YYYY' }}</p>
+            <p *ngIf="edu.endDate; else presentDate">{{ edu.endDate | date:'MMMM YYYY' }}</p>
+            <ng-template #presentDate> <p>present</p> </ng-template>
+        </div>
+    </div>
+</div>

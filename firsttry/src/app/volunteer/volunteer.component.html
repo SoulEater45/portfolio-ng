@@ -1,0 +1,18 @@
+<h3>Volunteer</h3>
+<div class="volunteer">
+    <div *ngFor="let work of volunteer">
+        <p>{{ work.position }}</p>
+        <a href="{{ work.url }}">{{ work.organization }}</a>
+        <p>{{ work.summary }}</p>
+        <p>{{ work.startDate | date:'MMMM YYYY' }}</p>
+        <p *ngIf="work.endDate; else presentDate">{{ work.endDate | date:'MMMM YYYY' }}</p>
+        <ng-template #presentDate> <p>present</p> </ng-template>
+        <ul *ngFor="let highligh of work.highlights">
+            <li>
+                <p>
+                    {{ highligh }}
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
