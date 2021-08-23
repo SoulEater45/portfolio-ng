@@ -1,2 +1,18 @@
-<h1>I'm {{ name }}</h1>
-<!-- <p>{{ summary }}</p> -->
+<div class="background">
+    <h1>I'm {{ name }}</h1>
+    <ul id="menu">
+        <li *ngFor='let profile of profiles; let i = index'>
+            <!-- {{ profile.network | titlecase }} -->
+            <a href="{{ profile.url}}">
+                <!-- <fa-icon [icon]="fa{{ profile.network | titlecase }}"></fa-icon> -->
+                <fa-icon [icon]="icons[i]"></fa-icon>
+            </a>
+            <!-- {{ icons[i] | json }} -->
+        </li>
+    </ul>
+</div>
+<br>
+
+
+<canvas id="canvas" width="400" height="300"></canvas>
+<br>

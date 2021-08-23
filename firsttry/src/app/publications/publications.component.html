@@ -1,7 +1,9 @@
-<h3>Publications</h3>
-<div *ngFor="let publication of publications">
-    <a href="{{ publication.url }}">{{ publication.name }}</a>
-    <p>{{ publication.summary }}</p>
-    <p>{{ publication.publisher }}</p>
-    <p>{{ publication.releaseDate | date:'MMMM YYYY' }}</p>
+<div class="bg">
+    <h3>Publications</h3>
+    <div *ngFor="let publication of publications">
+        <a href="{{ publication.url }}">{{ publication.name }}</a>
+        <p>{{ publication.summary }}</p>
+        <p>{{ publication.publisher }}</p>
+        <p>{{ publication.releaseDate | date:'MMMM YYYY' }}</p>
+    </div>
 </div>

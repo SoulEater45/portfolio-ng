@@ -1,11 +1,53 @@
+<!-- <nb-layout>
+
+  <nb-layout-header fixed>
+  </nb-layout-header>
+
+  <nb-layout-column>
+    <app-title></app-title>
+    <app-about></app-about>
+    <app-education></app-education>
+    <app-work></app-work>
+    <app-publications></app-publications>
+    <app-projects></app-projects>
+    <app-awards></app-awards>
+    <app-volunteer></app-volunteer>
+    <app-skills></app-skills>
+    <router-outlet></router-outlet>
+    
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  </nb-layout-footer>
+
+</nb-layout> -->
+
 <app-title></app-title>
-<app-profiles></app-profiles>
+
 <app-about></app-about>
+<app-wave-divider></app-wave-divider>
+
 <app-education></app-education>
+<app-wave-divider [f]="true"></app-wave-divider>
+
 <app-work></app-work>
+<app-wave-divider></app-wave-divider>
+
 <app-publications></app-publications>
+<app-wave-divider [f]="true"></app-wave-divider>
+
 <app-projects></app-projects>
+<app-wave-divider></app-wave-divider>
+
 <app-awards></app-awards>
+<app-wave-divider [f]="true"></app-wave-divider>
+
 <app-volunteer></app-volunteer>
+<app-wave-divider></app-wave-divider>
+
 <app-skills></app-skills>
+<app-wave-divider [f]="true" bgColor1="var(--bg-color-footer)"></app-wave-divider>
+
+<app-contact></app-contact>
+
 <router-outlet></router-outlet>

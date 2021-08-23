@@ -2,17 +2,17 @@
     "basics": {
         "name": "Mirza Arnaut",
         "label": "Research Assistant",
-        "picture": "https://arnaut.me/data/me.jpg",
-        "phone": "",
+        "image": "https://arnaut.me/data/me.jpg",
         "email": "mirza.arnaut@tu-dortmund.de",
-        "website": "https://arnaut.me",
-        "summary": "a research assistant at the TU Dortmund University pursuing a phD degree in Electrical Engineering and Information Technology",
+        "phone": "",
+        "url": "https://arnaut.me",
+        "summary": "a research assistant at the TU Dortmund University pursuing a PhD degree in Electrical Engineering and Information Technology",
         "location": {
             "address": "",
             "postalcode": "",
             "city": "Dortmund",
-            "countryCode": "DE",
-            "region": "North Rhine-Westphalia"
+            "region": "North Rhine-Westphalia",
+            "countryCode": "DE"
         },
         "profiles": [
             {
@@ -37,10 +37,8 @@
     "work": [
         {
             "name": "TU Dortmund",
-            "company": "TU Dortmund",
             "position": "Research Assistant",
             "url": "http://bv.e-technik.tu-dortmund.de/",
-            "website": "http://bv.e-technik.tu-dortmund.de/",
             "startDate": "2018-10-01",
             "summary": "Lunar and planetary research, server maintenance and data management.",
             "highlights": [
@@ -51,10 +49,8 @@
             ]
         }, {
             "name": "Lazarus Networks GmbH",
-            "company": "Lazarus Networks GmbH",
             "position": "Software Developer",
             "url": "https://lazarus-networks.de/",
-            "website": "https://lazarus-networks.de/",
             "startDate": "2016-12-01",
             "endDate": "2018-08-15",
             "summary": "Server maintenance and active development on the Lazarus-App for information gathering and data transfer.",
@@ -65,10 +61,8 @@
             ]
         }, {
             "name": "Intel GmbH",
-            "company": "Intel GmbH",
             "position": "Intern",
             "url": "https://www.intel.de/",
-            "website": "https://www.intel.de/",
             "startDate": "2018-04-01",
             "endDate": "2018-06-30",
             "summary": "Internship in the PDS group and development in Perl",
@@ -84,7 +78,6 @@
             "organization": "Student Council of the Department of Electrical Engineering and Information Technology",
             "position": "Council Member",
             "url": "http://fset.de/",
-            "website": "http://fset.de/",
             "startDate": "2017-10-01",
             "endDate": "2021-09-30",
             "summary": "The student council is an independent university organization consisting of honorary members that represent the students' opinion in various committees and tries to support them throughout their studies and student time with events and other activities",
@@ -125,22 +118,22 @@
     "education": [
         {
             "institution": "TU Dortmund",
+            "url": "https://tu-dortmund.de",
             "area": "Electrical Engineering and Information Technology",
             "studyType": "phD",
             "startDate": "2021-09-01",
             "score": "",
-            "gpa": "",
             "courses": [
             ]
         },
         {
             "institution": "TU Dortmund",
+            "url": "https://tu-dortmund.de",
             "area": "Electrical Engineering and Information Technology",
             "studyType": "Master of Science",
             "startDate": "2018-10-01",
             "endDate": "2021-08-01",
             "score": "1.2",
-            "gpa": "1.2",
             "courses": [
                 "Modeling and simulation of signal processing systems",
                 "Model-based dimensioning of communication systems",
@@ -157,12 +150,12 @@
         },
         {
             "institution": "TU Dortmund",
+            "url": "https://tu-dortmund.de",
             "area": "Electrical Engineering and Information Technology",
             "studyType": "Bachelor of Science",
             "startDate": "2015-10-01",
             "endDate": "2018-09-30",
             "score": "2.0",
-            "gpa": "2.0",
             "courses": [
                 "Mathematics I",
                 "Basics of electrical engineering",
@@ -172,10 +165,10 @@
                 "Physics",
                 "Mathematics III",
                 "Technical computer Science",
-                "Semiconductors devicecs and Materials and passive components",
-                "Theoretical electrical engineering and basics of high frequency technology",
+                "Semiconductors devices and Materials and passive components",
+                "Theoretical electrical engineering and basics of high-frequency technology",
                 "Signals and systems",
-                "Datastructures, algorithms and programming",
+                "Data structures, algorithms and programming",
                 "Communications Engineering",
                 "Control systems",
                 "Digital signal processing"
@@ -189,21 +182,21 @@
             "startDate": "2018-10-01",
             "endDate": "2021-07-31",
             "awarder": "TU Dortmund - Wilo Fundation",
-            "summary": "Scholarship from the university for the top ranking students. Duration: 01.10.2018 - 31.08.2021"
+            "summary": "Scholarship from the university for the top-ranking students. Duration: 01.10.2018 - 31.08.2021"
         }, {
             "title": "Deutschlandstipendium",
             "date": "2016-10-01",
             "startDate": "2016-10-01",
             "endDate": "2018-09-30",
             "awarder": "TU Dortmund - LEUE & NILL GmbH",
-            "summary": "Scholarship from the university for the top ranking students. Duration: 01.10.2016 - 30.09.2018"
+            "summary": "Scholarship from the university for the top-ranking students. Duration: 01.10.2016 - 30.09.2018"
         }, {
             "title": "International Mathematical Olympiad: Honorable Mention",
             "date": "2015-07-15",
             "startDate": "2015-07-04",
             "endDate": "2015-07-16",
             "awarder": "IMO Committee",
-            "summary": "The International Mathematical Olympiad (IMO) is the World Championship Mathematics Competition for High School students and is held annually in a different country"
+            "summary": "The International Mathematical Olympiad (IMO) is the World Championship Mathematics Competition for High School students and is held annually in a different country."
         }
     ],
     "publications": [
@@ -212,28 +205,24 @@
             "publisher": "LPSC 2019",
             "releaseDate": "2019-03-20",
             "url": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/2661.pdf",
-            "website": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/2661.pdf",
             "summary": "We constructed a Hapke-based framework to perform spectral unmixing in order to infer mineralogical maps of selected areas on Mars using CRISM data."
         }, {
             "name": "A Study of Hyperspectral Clustering — How to Speed Up Spectral Unmixing of Moon Mineralogy Mapper Data",
             "publisher": "LPSC 2020",
             "releaseDate": "2020-03-19",
             "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3008.pdf",
-            "website": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3008.pdf",
             "summary": "We use clustering algorithms as a means for speeding up the unmixing process on the lunar surface."
         }, {
             "name": "Geomorphologic Feature Extraction and Clustering of Martian DTM Data",
             "publisher": "LPSC 2020",
             "releaseDate": "2020-03-17",
             "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3044.pdf",
-            "website": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/3044.pdf",
             "summary": "We present a new way of grouping elevation data based on geomorphologic properties for cartography."
         }, {
             "name": "The Interaction Between Multiple Nanophase Iron Particles Changes the Slope of Lunar Reflectance Spectra",
             "publisher": "EPSC 2021",
             "releaseDate": "2020-09-20",
             "url": "https://meetingorganizer.copernicus.org/EPSC2021/EPSC2021-770.html",
-            "website": "https://meetingorganizer.copernicus.org/EPSC2021/EPSC2021-770.html",
             "summary": "We analyzed the impact of particle interaction in lunar reflectance spectra."
         }
     ],
@@ -256,6 +245,15 @@
     ],
     "skills": [
         {
+            "name": "Mathematical Knowledge",
+            "level": "Master",
+            "keywords": [
+                "Modelling",
+                "Phsics Application",
+                "Algorithms",
+                "Competitive Mathematics"
+            ]
+        }, {
             "name": "Systems",
             "level": "Advanced",
             "keywords": [
@@ -273,17 +271,8 @@
                 "Matlab"
             ]
         }, {
-            "name": "Mathematical Knowledge",
-            "level": "Master",
-            "keywords": [
-                "Modelling",
-                "Phsics Application",
-                "Algorithms",
-                "Competitive Mathematics"
-            ]
-        }, {
             "name": "Web Development",
-            "level": "beginner",
+            "level": "Beginner",
             "keywords": [
                 "Flutter Web",
                 "JavaScript",
@@ -333,6 +322,6 @@
     ],
     "references": [],
     "meta": {
-        "theme": "kwan"
+        "theme": "Kendall"
       }
 }

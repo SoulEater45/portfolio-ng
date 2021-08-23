@@ -1,9 +1,9 @@
-<img src="{{ imgURL }}" width="100">
-<p>{{ summary }}</p>
-<!-- <p *ngIf="location.address">{{ location.address }}</p>
-<p *ngIf="location.region">{{ location.region }}</p> -->
-<div *ngFor="let l of location | keyvalue">
-    <li *ngIf="l.value">
-        {{ l.value}}
-    </li>
+<div class="bg">
+    <div class="container">
+        <img src="{{ imgURL }}">
+        <div>
+            <h3>About</h3>
+            <p class="test">{{ summary }}</p>
+        </div>
+    </div>
 </div>

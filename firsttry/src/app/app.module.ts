@@ -13,6 +13,10 @@ import { PublicationsComponent } from './publications/publications.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { SkillsComponent } from './skills/skills.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContactComponent } from './contact/contact.component';
+import { WaveDividerComponent } from './wave-divider/wave-divider.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +30,15 @@ import { SkillsComponent } from './skills/skills.component';
     PublicationsComponent,
     ProjectsComponent,
     VolunteerComponent,
-    SkillsComponent
+    SkillsComponent,
+    ContactComponent,
+    WaveDividerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

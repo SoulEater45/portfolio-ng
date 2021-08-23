@@ -12,7 +12,7 @@ export class AboutComponent implements OnInit {
   location: any;
 
   constructor() {
-    this.imgURL = jsonresume.resume.basics.picture;
+    this.imgURL = jsonresume.resume.basics.image;
     this.summary = jsonresume.resume.basics.summary;
     this.location = jsonresume.resume.basics.location;
   }

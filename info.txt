@@ -1,0 +1,4 @@
+ng build --base-href ./
+ng generate @schematics/angular:component contact
+ng serve
+ng serve --open

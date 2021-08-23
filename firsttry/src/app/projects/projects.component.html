@@ -1,7 +1,9 @@
-<h3>Projects</h3>
-<div *ngFor="let project of projects">
-    <a href="{{ project.url }}">{{ project.name }}</a>
-    <p>{{ project.summary }}</p>
-    <p>{{ project.publisher }}</p>
-    <p>{{ project.releaseDate | date:'MMMM YYYY' }}</p>
+<div class="bg">
+    <h3>Projects</h3>
+    <div *ngFor="let project of projects">
+        <a href="{{ project.url }}">{{ project.name }}</a>
+        <p>{{ project.summary }}</p>
+        <p>{{ project.publisher }}</p>
+        <p>{{ project.releaseDate | date:'MMMM YYYY' }}</p>
+    </div>
 </div>

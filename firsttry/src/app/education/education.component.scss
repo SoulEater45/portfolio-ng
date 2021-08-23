@@ -1,0 +1,16 @@
+.bg {
+    background-color: var(--bg-color-2);
+}
+
+.add-info {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin: 0;
+}
+
+div.duration > p {
+    font-family: monospace;
+}

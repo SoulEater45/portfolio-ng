@@ -1,0 +1,23 @@
+.container {
+    // background-color: var(--bg-color-2);
+    position: relative;
+    width: 100%;
+    height: 30vw;
+}
+
+svg {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+// path {
+//     fill: var(--bg-color-1);
+// }
+
+.flip {
+    transform: rotate(180deg);
+    // rotate: 180;
+}

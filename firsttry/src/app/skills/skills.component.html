@@ -1,12 +1,14 @@
-<h3>Skills</h3>
-<div *ngFor="let skill of skills">
-    <p>{{ skill.name }}</p>
-    <p>{{ skill.level }}</p>
-    <ul *ngFor="let keyword of skill.keywords">
-        <li>
-            <p>
-                {{ keyword }}
-            </p>
-        </li>
-    </ul>
+<div class="bg">
+    <h3>Skills</h3>
+    <div *ngFor="let skill of skills">
+        <p>{{ skill.name }}</p>
+        <p>{{ skill.level }}</p>
+        <ul *ngFor="let keyword of skill.keywords">
+            <li>
+                <p>
+                    {{ keyword }}
+                </p>
+            </li>
+        </ul>
+    </div>
 </div>

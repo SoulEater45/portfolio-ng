@@ -1,0 +1,8 @@
+<div class="container {{ flip }}" attr.style="background-color: {{ bgColor2 }};">
+    <svg *ngFor="let b of bezierPath; let i = index" viewBox="0 0 160 120" preserveAspectRatio="none">
+        <path [attr.d]="b" [attr.opacity]="(i+1)/vN" [attr.fill]="bgColor1"></path>
+    </svg>
+    <!-- <svg viewBox="0 0 160 120" preserveAspectRatio="none">
+        <path d="M-4,-4 L164,-4 L160,40 Q150 20, 140 50 T120,85 T100,80 T80,45 T60,70 T40,55 T20,80 T-4,40 L-4,-4 Z"></path>
+    </svg> -->
+</div>

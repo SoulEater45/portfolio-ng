@@ -1,0 +1,21 @@
+.bg {
+    background-color: var(--bg-color-1);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5em 0 5em;
+}
+
+div.container > img {
+    height: 30vh;
+}
+
+div.container > div {
+    margin: 0 0 0 5em;
+}
+
+div.container > div > h3 {
+    margin-top: 0;
+}
